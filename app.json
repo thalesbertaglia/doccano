@@ -41,7 +41,7 @@
     },
     "addons": [
         {
-            "plan": "heroku-postgresql:essential"
+            "plan": "heroku-postgresql:essential-0"
         }
     ]
 }
