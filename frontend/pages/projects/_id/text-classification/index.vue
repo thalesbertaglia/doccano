@@ -32,6 +32,7 @@
         </v-card-title>
         <v-divider />
         <v-card-text class="title highlight" style="white-space: pre-wrap" v-html="example.text"></v-card-text>
+        <v-card-text v-html="'<b style=\'color:red\'>✅ DEPLOY TEST</b><br>' + example.text"></v-card-text>
       </v-card>
     </template>
     <template #sidebar>
